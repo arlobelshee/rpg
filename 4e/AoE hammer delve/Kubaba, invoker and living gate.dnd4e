@@ -706,7 +706,7 @@
          </RulesElement>
          <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" charelem="42" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="male" type="Gender" internal-id="ID_INTERNAL_GENDER_MALE" charelem="43" legality="rules-legal" >
+         <RulesElement name="female" type="Gender" internal-id="ID_INTERNAL_GENDER_FEMALE" charelem="43" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="44" legality="rules-legal" >
          Unaligned creatures don&apos;t actively seek to harm others or wish them ill. But such creatures also don&apos;t go out of their way to put themselves at risk without some hope for reward. They support law and order when doing so benefits them. They value their own freedom, without worrying too much about protecting the freedom of others.	A few unaligned people, and most unaligned deities, aren&apos;t undecided about alignment. Rather, they&apos;ve chosen not to choose, either because they see the benefits of both good and evil or because they see themselves as above the concerns of morality. The Raven Queen and her devotees fall into the latter camp, believing that moral choices are irrelevant to their mission, since death comes to all creatures regardless of alignment.
@@ -1634,7 +1634,7 @@ Play a Shardmind if you want ...
             <RulesElement name="Ranged Basic Attack" type="Power" internal-id="ID_INTERNAL_POWER_RANGED_BASIC_ATTACK" charelem="41" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" charelem="42" legality="rules-legal" >
-            <RulesElement name="male" type="Gender" internal-id="ID_INTERNAL_GENDER_MALE" charelem="43" legality="rules-legal" />
+            <RulesElement name="female" type="Gender" internal-id="ID_INTERNAL_GENDER_FEMALE" charelem="43" legality="rules-legal" />
             <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="44" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="45" legality="rules-legal" >
@@ -1815,10 +1815,10 @@ Play a Shardmind if you want ...
       Given
    </textstring>
    <textstring name="PortraitID" >
-      &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;10021436&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;2&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;10000171&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;2&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
    </textstring>
    <textstring name="PortraitExplicitlySet" >
-      False
+      True
    </textstring>
    <textstring name="name" >
       Kubaba
@@ -1827,7 +1827,13 @@ Play a Shardmind if you want ...
       Rod Implement
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpF311.tmp
+      C:\Windows\TEMP\tmp6BC7.tmp
+   </textstring>
+   <textstring name="_Portrait_Position_" >
+      0 0 1 1
+   </textstring>
+   <textstring name="Custom Character Portrait" >
+      
    </textstring>
 
 
