@@ -1117,38 +1117,24 @@ Play a Gnome if you want ...
             <specific name="Short Description" > Slide target you are hidden from after hitting with attack </specific>
          When you hit an enemy you are hidden from using a psion attack power, you slide that enemy 2 squares.
          </RulesElement>
-         <RulesElement name="Living Missile" type="Power" internal-id="ID_FMP_POWER_13308" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=13308" charelem="117" legality="rules-legal" >
-            <specific name="Flavor" > You bind an enemy with a thought, then hurl it into another foe. </specific>
+         <RulesElement name="Ravening Thought" type="Power" internal-id="ID_FMP_POWER_8230" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=8230" charelem="117" legality="rules-legal" >
+            <specific name="Flavor" > You craft an insidious idea barbed with contradictions and horrors and project it into the mind of your foe. The thought then tries to invade other foes&apos; minds. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_ChildPower" > ID_FMP_POWER_13309 </specific>
             <specific name="Display" > Psion Attack 1 </specific>
-            <specific name="Keywords" > Implement, Psionic </specific>
+            <specific name="Keywords" > Implement, Psionic, Psychic </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Primary Target" > One creature </specific>
-            <specific name="Primary Attack" > Intelligence vs. Fortitude </specific>
-            <specific name="Hit" > The target is immobilized (save ends). </specific>
-            <specific name="Miss" > The target is slowed (save ends). </specific>
-            <specific name="Effect" > While the target is immobilized or slowed by this power, you can use the Living Missile Attack power once per round. </specific>
+            <specific name="Primary Attack" > Intelligence vs. Will </specific>
+            <specific name="Hit" > 2d6 + Intelligence modifier psychic damage, and ongoing 5 psychic damage (save ends). </specific>
+            <specific name="Miss" > Half damage, and ongoing 3 psychic damage (save ends). </specific>
+            <specific name="Effect" > Make a secondary attack. </specific>
+            <specific name="Secondary Target" > Each enemy adjacent to the primary target </specific>
+            <specific name="Secondary Attack" > Intelligence vs. Will </specific>
+            <specific name="Hit" > 2d6 + Intelligence modifier psychic damage, and ongoing 5 psychic damage (save ends). </specific>
             <specific name="Class" > ID_FMP_CLASS_437 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <specific name="_DisplayPowers" > ID_FMP_POWER_13309 </specific>
-         </RulesElement>
-         <RulesElement name="Living Missile Attack" type="Power" internal-id="ID_FMP_POWER_13309" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=13309" charelem="118" legality="rules-legal" >
-            <specific name="Power Usage" > Daily </specific>
-            <specific name="Display" />
-            <specific name="Keywords" > Implement, Psionic </specific>
-            <specific name="Action Type" > Minor Action </specific>
-            <specific name="Attack Type" > Ranged 10 </specific>
-            <specific name="Requirement" > The power Living Missile must be active in order to use this power.  This power may be used once per round. </specific>
-            <specific name="Effect" > Before the secondary attack, you slide the primary target 10 squares. </specific>
-            <specific name="Secondary Target" > One creature adjacent to the primary target at any point during the slide </specific>
-            <specific name="Secondary Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 2d6 + Intelligence modifier damage, and the secondary target falls prone. The primary target takes half damage and falls prone. </specific>
-            <specific name="Miss" > Half damage, and the primary target falls prone. </specific>
-            <specific name="_ParentPower" > ID_FMP_POWER_13308 </specific>
-            <specific name="Class" > ID_FMP_CLASS_437 </specific>
          </RulesElement>
       </RulesElementTally>
 
@@ -1158,7 +1144,7 @@ Play a Gnome if you want ...
       -->
       <LootTally>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Ritual Book" type="Gear" internal-id="ID_FMP_GEAR_31" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=31&amp;ftype=4" charelem="119" legality="rules-legal" >
+            <RulesElement name="Ritual Book" type="Gear" internal-id="ID_FMP_GEAR_31" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=31&amp;ftype=4" charelem="118" legality="rules-legal" >
                <specific name="Full Text" > Ritual BookCategory: GearPrice: 50 gp Weight: 3 lbDescription: Ritual casters use a ritual book to store the rituals they have mastered. </specific>
                <specific name="Weight" > 3 </specific>
                <specific name="Gold" > 50 </specific>
@@ -1168,7 +1154,7 @@ Play a Gnome if you want ...
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Sending" type="Ritual" internal-id="ID_FMP_RITUAL_55" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=55" charelem="120" legality="rules-legal" >
+            <RulesElement name="Sending" type="Ritual" internal-id="ID_FMP_RITUAL_55" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=55" charelem="119" legality="rules-legal" >
                <specific name="Flavor" > You can see him in your mind&apos;s eye, clear as the first time you met him. Your magic lets him know that you&apos;re safe, despite encountering the followers of Thoon, and he reassures you that the red dragon caused him no harm. </specific>
                <specific name="Category" > Exploration </specific>
                <specific name="Key Skill" > Arcana </specific>
@@ -1182,7 +1168,7 @@ Play a Gnome if you want ...
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Comrades&apos; Succor" type="Ritual" internal-id="ID_FMP_RITUAL_297" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=297" charelem="121" legality="rules-legal" >
+            <RulesElement name="Comrades&apos; Succor" type="Ritual" internal-id="ID_FMP_RITUAL_297" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=297" charelem="120" legality="rules-legal" >
                <specific name="Flavor" > Ritual participants share their vitality and luck with one another. </specific>
                <specific name="Category" > Restoration </specific>
                <specific name="Key Skill" > Heal (no check) </specific>
@@ -1197,7 +1183,7 @@ Play a Gnome if you want ...
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="4" legality="rules-legal" >
-               <specific name="Full Text" > Cloth Armor (Basic Clothing)Description: Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.Weight: 4 lb.Cost: 1 gp.Type: Cloth </specific>
+               <specific name="Full Text" > Cloth Armor (Basic Clothing)Description: Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.	Magic appears at higher item levels, and grants higher armor bonuses than its mundane counterparts. Cloth armor grants +1 AC at levels 16-25, and +2 AC at levels 26-30.Weight: 4 lb.Cost: 1 gp.Type: Cloth </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
@@ -1211,11 +1197,11 @@ Play a Gnome if you want ...
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Cloth </specific>
-            Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.
+            Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.	Magic appears at higher item levels, and grants higher armor bonuses than its mundane counterparts. Cloth armor grants +1 AC at levels 16-25, and +2 AC at levels 26-30.
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="122" legality="rules-legal" >
+            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="121" legality="rules-legal" >
                <specific name="Full Text" > Adventurer&apos;s KitCategory: GearPrice: 15 gp Weight: 33 lbDescription: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
                <specific name="Weight" > 33 </specific>
                <specific name="Gold" > 15 </specific>
@@ -1225,7 +1211,7 @@ Play a Gnome if you want ...
             </RulesElement>
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
-            <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="123" legality="rules-legal" >
+            <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="122" legality="rules-legal" >
                <specific name="Full Text" > Orb ImplementCategory: GearPrice: 15 gp Weight: 2 lbDescription: Using a nonmagical implement confers no benefit. You can purchase a magic implement to gain an enhancement bonus to attack rolls and damage rolls with your arcane powers. </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 15 </specific>
@@ -1377,7 +1363,7 @@ Play a Gnome if you want ...
             <specific name="Power Type" > Attack </specific>
             <specific name="_AugmentVersions" > ID_INTERNAL_POWER_DISHEARTEN_(AUGMENT_0),ID_INTERNAL_POWER_DISHEARTEN_(AUGMENT_1),ID_INTERNAL_POWER_DISHEARTEN_(AUGMENT_2) </specific>
             <Weapon name="Orb Implement" >
-               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="123" legality="rules-legal" />
+               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="122" legality="rules-legal" />
                <AttackBonus> 4 </AttackBonus>
                <Damage> 1d6+4 </Damage>
                <DamageType> Psychic </DamageType>
@@ -1431,7 +1417,7 @@ Play a Gnome if you want ...
             <specific name="Power Type" > Attack </specific>
             <specific name="_AugmentVersions" > ID_INTERNAL_POWER_MIND_THRUST_(AUGMENT_0),ID_INTERNAL_POWER_MIND_THRUST_(AUGMENT_1),ID_INTERNAL_POWER_MIND_THRUST_(AUGMENT_2) </specific>
             <Weapon name="Orb Implement" >
-               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="123" legality="rules-legal" />
+               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="122" legality="rules-legal" />
                <AttackBonus> 4 </AttackBonus>
                <Damage> 1d10+4 </Damage>
                <DamageType> Psychic </DamageType>
@@ -1465,74 +1451,31 @@ Play a Gnome if you want ...
             </Weapon>
          </Power>
 
-         <Power name="Living Missile" >
-            <specific name="Flavor" > You bind an enemy with a thought, then hurl it into another foe. </specific>
+         <Power name="Ravening Thought" >
+            <specific name="Flavor" > You craft an insidious idea barbed with contradictions and horrors and project it into the mind of your foe. The thought then tries to invade other foes&apos; minds. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_ChildPower" > ID_FMP_POWER_13309 </specific>
             <specific name="Display" > Psion Attack 1 </specific>
-            <specific name="Keywords" > Implement, Psionic </specific>
+            <specific name="Keywords" > Implement, Psionic, Psychic </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Primary Target" > One creature </specific>
-            <specific name="Primary Attack" > Intelligence vs. Fortitude </specific>
-            <specific name="Hit" > The target is immobilized (save ends). </specific>
-            <specific name="Miss" > The target is slowed (save ends). </specific>
-            <specific name="Effect" > While the target is immobilized or slowed by this power, you can use the Living Missile Attack power once per round. </specific>
+            <specific name="Primary Attack" > Intelligence vs. Will </specific>
+            <specific name="Hit" > 2d6 + Intelligence modifier psychic damage, and ongoing 5 psychic damage (save ends). </specific>
+            <specific name="Miss" > Half damage, and ongoing 3 psychic damage (save ends). </specific>
+            <specific name="Effect" > Make a secondary attack. </specific>
+            <specific name="Secondary Target" > Each enemy adjacent to the primary target </specific>
+            <specific name="Secondary Attack" > Intelligence vs. Will </specific>
+            <specific name="Hit" > 2d6 + Intelligence modifier psychic damage, and ongoing 5 psychic damage (save ends). </specific>
             <specific name="Class" > ID_FMP_CLASS_437 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <specific name="_DisplayPowers" > ID_FMP_POWER_13309 </specific>
             <Weapon name="Orb Implement" >
-               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="123" legality="rules-legal" />
-               <AttackBonus> 4 </AttackBonus>
-               <Damage>  </Damage>
-               <AttackStat> Intelligence </AttackStat>
-               <Defense> Fortitude </Defense>
-               <HitComponents> +4 Intelligence modifier.
-+0 half your level.
-
-               </HitComponents>
-               <DamageComponents> 
-               </DamageComponents>
-               <CritDamage> 0 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Unarmed" >
-               <AttackBonus> 4 </AttackBonus>
-               <Damage>  </Damage>
-               <AttackStat> Intelligence </AttackStat>
-               <Defense> Fortitude </Defense>
-               <HitComponents> +4 Intelligence modifier.
-+0 half your level.
-
-               </HitComponents>
-               <DamageComponents> 
-               </DamageComponents>
-               <CritDamage> 0 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-         </Power>
-
-         <Power name="Living Missile Attack" >
-            <specific name="Power Usage" > Daily </specific>
-            <specific name="Display" />
-            <specific name="Keywords" > Implement, Psionic </specific>
-            <specific name="Action Type" > Minor Action </specific>
-            <specific name="Attack Type" > Ranged 10 </specific>
-            <specific name="Requirement" > The power Living Missile must be active in order to use this power.  This power may be used once per round. </specific>
-            <specific name="Effect" > Before the secondary attack, you slide the primary target 10 squares. </specific>
-            <specific name="Secondary Target" > One creature adjacent to the primary target at any point during the slide </specific>
-            <specific name="Secondary Attack" > Intelligence vs. Reflex </specific>
-            <specific name="Hit" > 2d6 + Intelligence modifier damage, and the secondary target falls prone. The primary target takes half damage and falls prone. </specific>
-            <specific name="Miss" > Half damage, and the primary target falls prone. </specific>
-            <specific name="_ParentPower" > ID_FMP_POWER_13308 </specific>
-            <specific name="Class" > ID_FMP_CLASS_437 </specific>
-            <Weapon name="Orb Implement" >
-               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="123" legality="rules-legal" />
+               <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="122" legality="rules-legal" />
                <AttackBonus> 4 </AttackBonus>
                <Damage> 2d6+4 </Damage>
+               <DamageType> Psychic </DamageType>
                <AttackStat> Intelligence </AttackStat>
-               <Defense> Reflex </Defense>
+               <Defense> Will </Defense>
                <HitComponents> +4 Intelligence modifier.
 +0 half your level.
 
@@ -1546,8 +1489,9 @@ Play a Gnome if you want ...
             <Weapon name="Unarmed" >
                <AttackBonus> 4 </AttackBonus>
                <Damage> 2d6+4 </Damage>
+               <DamageType> Psychic </DamageType>
                <AttackStat> Intelligence </AttackStat>
-               <Defense> Reflex </Defense>
+               <Defense> Will </Defense>
                <HitComponents> +4 Intelligence modifier.
 +0 half your level.
 
@@ -1611,26 +1555,26 @@ Play a Gnome if you want ...
          </RulesElement>
          <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" charelem="40" legality="rules-legal" >
             <RulesElement name="female" type="Gender" internal-id="ID_INTERNAL_GENDER_FEMALE" charelem="41" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="124" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="123" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="42" legality="rules-legal" >
             <RulesElement name="Assassin" type="Background" internal-id="ID_FMP_BACKGROUND_66" charelem="43" legality="rules-legal" />
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="44" legality="rules-legal" >
                <RulesElement name="Assassin Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ASSASSIN_BENEFIT" charelem="8" legality="rules-legal" />
             </RulesElement>
+            <RulesElement name="" type="" charelem="124" legality="rules-legal" />
             <RulesElement name="" type="" charelem="125" legality="rules-legal" />
             <RulesElement name="" type="" charelem="126" legality="rules-legal" />
             <RulesElement name="" type="" charelem="127" legality="rules-legal" />
             <RulesElement name="" type="" charelem="128" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="129" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="45" legality="rules-legal" >
             <RulesElement name="Fey Beast Tamer" type="Theme" internal-id="ID_FMP_THEME_915" charelem="46" legality="rules-legal" >
                <RulesElement name="Fey Beast Tamer Starting Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4191" charelem="47" legality="rules-legal" >
                   <RulesElement name="Trained Displacer Beast" type="Associate" internal-id="ID_FMP_ASSOCIATE_54" charelem="48" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Fey Beast Tamer Level 5 Features" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4192" charelem="130" legality="rules-legal" />
-               <RulesElement name="Fey Beast Tamer Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4193" charelem="131" legality="rules-legal" />
+               <RulesElement name="Fey Beast Tamer Level 5 Features" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4192" charelem="129" legality="rules-legal" />
+               <RulesElement name="Fey Beast Tamer Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4193" charelem="130" legality="rules-legal" />
             </RulesElement>
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="49" legality="rules-legal" />
@@ -1711,12 +1655,12 @@ Play a Gnome if you want ...
                      <RulesElement name="No Encounter Powers" type="Internal" internal-id="ID_INTERNAL_INTERNAL_NO_ENCOUNTER_POWERS" charelem="104" legality="rules-legal" >
                         <RulesElement name="No Level 1 Encounter Power" type="Internal" internal-id="ID_INTERNAL_INTERNAL_NO_LEVEL_1_ENCOUNTER_POWER" charelem="105" legality="rules-legal" />
                      </RulesElement>
+                     <RulesElement name="" type="" charelem="131" legality="rules-legal" />
                      <RulesElement name="" type="" charelem="132" legality="rules-legal" />
                      <RulesElement name="" type="" charelem="133" legality="rules-legal" />
                      <RulesElement name="" type="" charelem="134" legality="rules-legal" />
                      <RulesElement name="" type="" charelem="135" legality="rules-legal" />
                      <RulesElement name="" type="" charelem="136" legality="rules-legal" />
-                     <RulesElement name="" type="" charelem="137" legality="rules-legal" />
                   </RulesElement>
                </RulesElement>
                <RulesElement name="Ritual Casting" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_683" charelem="106" legality="rules-legal" >
@@ -1730,7 +1674,7 @@ Play a Gnome if you want ...
             </RulesElement>
             <RulesElement name="Dishearten" type="Power" internal-id="ID_FMP_POWER_8226" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=8226" charelem="112" legality="rules-legal" />
             <RulesElement name="Mind Thrust" type="Power" internal-id="ID_FMP_POWER_8228" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=8228" charelem="113" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="138" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="137" legality="rules-legal" />
             <RulesElement name="Arcana" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ARCANA" charelem="7" legality="rules-legal" />
             <RulesElement name="Stealth" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_STEALTH" charelem="12" legality="rules-legal" />
             <RulesElement name="History" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_HISTORY" charelem="11" legality="rules-legal" />
@@ -1739,29 +1683,27 @@ Play a Gnome if you want ...
             <RulesElement name="Sending" type="Ritual" internal-id="ID_FMP_RITUAL_55" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=55" charelem="115" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Unseen Dread" type="Feat" internal-id="ID_FMP_FEAT_3324" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3324" charelem="116" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="138" legality="rules-legal" />
+         <RulesElement name="Ravening Thought" type="Power" internal-id="ID_FMP_POWER_8230" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=8230" charelem="117" legality="rules-legal" />
          <RulesElement name="" type="" charelem="139" legality="rules-legal" />
-         <RulesElement name="Living Missile" type="Power" internal-id="ID_FMP_POWER_13308" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=13308" charelem="117" legality="rules-legal" >
-            <RulesElement name="Living Missile Attack" type="Power" internal-id="ID_FMP_POWER_13309" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=13309" charelem="118" legality="rules-legal" />
-         </RulesElement>
-         <RulesElement name="" type="" charelem="140" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Ritual Book" type="Gear" internal-id="ID_FMP_GEAR_31" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=31&amp;ftype=4" charelem="141" legality="rules-legal" />
+         <RulesElement name="Ritual Book" type="Gear" internal-id="ID_FMP_GEAR_31" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=31&amp;ftype=4" charelem="140" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Sending" type="Ritual" internal-id="ID_FMP_RITUAL_55" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=55" charelem="142" legality="rules-legal" />
+         <RulesElement name="Sending" type="Ritual" internal-id="ID_FMP_RITUAL_55" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=55" charelem="141" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Comrades&apos; Succor" type="Ritual" internal-id="ID_FMP_RITUAL_297" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=297" charelem="143" legality="rules-legal" />
+         <RulesElement name="Comrades&apos; Succor" type="Ritual" internal-id="ID_FMP_RITUAL_297" url="http://www.wizards.com/dndinsider/compendium/ritual.aspx?id=297" charelem="142" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="144" legality="rules-legal" />
+         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="143" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="145" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="144" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="146" legality="rules-legal" />
+         <RulesElement name="Orb Implement" type="Gear" internal-id="ID_FMP_GEAR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=4" charelem="145" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -1792,7 +1734,7 @@ Play a Gnome if you want ...
       True
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp8040.tmp
+      C:\Windows\TEMP\tmp355A.tmp
    </textstring>
    <textstring name="ID_FMP_RITUAL_55" >
       Given

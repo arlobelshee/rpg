@@ -972,26 +972,28 @@ Play a Shardmind if you want ...
             <specific name="_PARSED_SUB_FEATURES" > ID_FMP_CLASS_FEATURE_1265, ID_FMP_CLASS_FEATURE_1266, ID_FMP_CLASS_FEATURE_1717 </specific>
          Invokers wield ancient divine power that is not accessible to most mortals -- only to those who enter into a personal covenant with a god. Invokers undergo long years of study and testing. Only after that time are they allowed to enter into the final covenant that grants them access to this class&apos;s powers. Some say that, in the final swearing of the covenant, the invoker&apos;s god briefly manifests, but the details of an invoker&apos;s initiation are a closely held secret.Choose one of the options described below. The Divine Covenant you choose provides you with a Channel Divinity power and a covenant manifestation that takes effect whenever you use a divine encounter or daily attack power. Your choice also provides bonuses to certain invoker powers, as detailed in those powers.
          </RulesElement>
-         <RulesElement name="Covenant of Preservation" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1265" charelem="104" legality="rules-legal" >
-            <specific name="Short Description" > When you use a divine encounter or daily attack power on your turn, slide an ally within 10 squares 1 square </specific>
+         <RulesElement name="Covenant of Malediction" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1717" charelem="104" legality="rules-legal" >
             <specific name="Level" > 1 </specific>
-            <specific name="Powers" > ID_FMP_POWER_5185 </specific>
+            <specific name="Powers" > ID_FMP_POWER_7150 </specific>
             <specific name="Type" > Encounter </specific>
-            <specific name="Class" />
-            <specific name="_DisplayPowers" > ID_FMP_POWER_5185 </specific>
-         The gods have charged you to defend the faithful and to ally with those who seek to defeat the gods&apos; enemies.Channel Divinity: You gain the Channel Divinity power preserver&apos;s rebuke.Covenant Manifestation: When you use a divine encounter or daily attack power on your turn, you can slide an ally within 10 squares of you 1 square.
+            <specific name="Class" > ID_FMP_CLASS_127 </specific>
+            <specific name="_DisplayPowers" > ID_FMP_POWER_7150 </specific>
+         The gods entrust you with the invocations of destruction used in their war against the primordials, so you can carry forward their sacred cause and ensure that the world&apos;s enemies never rise again.Channel Divinity: You gain the Channel Divinity power maledictor&apos;s doom.Covenant Manifestation: When you use a divine encounter or daily attack power on your turn, you can push one target hit by the power 1 square after the power&apos;s effect is resolved.
          </RulesElement>
-         <RulesElement name="Preserver&apos;s Rebuke" type="Power" internal-id="ID_FMP_POWER_5185" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5185" charelem="105" legality="rules-legal" >
-            <specific name="Flavor" > You call upon the gods to punish the enemy that dares harm those entrusted to your care. </specific>
+         <RulesElement name="Maledictor&apos;s Doom" type="Power" internal-id="ID_FMP_POWER_7150" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7150" charelem="105" legality="rules-legal" >
+            <specific name="Flavor" > Foes who hear your solemn vow are shaken by its weighty promise. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="Display" > Covenant of Preservation  Power </specific>
-            <specific name="Keywords" > Divine </specific>
-            <specific name="Action Type" > Immediate Reaction </specific>
-            <specific name="Attack Type" > Personal </specific>
-            <specific name="Channel Divinity" > You can use only one channel divinity power per encounter. </specific>
-            <specific name="Trigger" > An enemy within 10 squares of you hits your ally </specific>
-            <specific name="Effect" > Before the end of your next turn, you gain a bonus to your next attack roll against the triggering enemy equal to your Intelligence modifier. </specific>
-            <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1265 </specific>
+            <specific name="Display" > Invoker Feature </specific>
+            <specific name="Keywords" > Divine, Fear </specific>
+            <specific name="Action Type" > Minor Action </specific>
+            <specific name="Attack Type" > Close blast 5 </specific>
+            <specific name="Channel Divinity" > You can use only one channel divinity power per encounter </specific>
+            <specific name="Target" > Each enemy in the blast </specific>
+            <specific name="Effect" > Each target takes a -1 penalty to attack rolls and saving throws until the end of your next turn. In addition, whenever the target is hit by a fear attack before the end of your next turn, you push the target 1 square as a free action. </specific>
+            <specific name="Class" > ID_FMP_CLASS_127 </specific>
+            <specific name="Level" />
+            <specific name="Power Type" > Feature </specific>
+            <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1717 </specific>
          </RulesElement>
          <RulesElement name="Ritual Casting" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_683" charelem="106" legality="rules-legal" >
             <specific name="Flavor" > As you gain levels, you automatically gain access to new rituals, but you can also buy new rituals or acquire them during your adventures. Higher-level rituals let you seal or open doors, view places or people from a distance, or open portals to other places. </specific>
@@ -1210,7 +1212,7 @@ Play a Shardmind if you want ...
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="4" legality="rules-legal" >
-               <specific name="Full Text" > ChainmailDescription: Metal rings woven together into a shirt, leggings, and a hood make up a suit of chainmail. Chainmail grants good protection, but it&apos;s cumbersome, so it reduces your mobility and agility.AC Bonus: +6Check: -1Speed: -1Weight: 40 lb.Cost: 40 gp.Type: Chainmail </specific>
+               <specific name="Full Text" > ChainmailDescription: Metal rings woven together into a shirt, leggings, and a hood make up a suit of chainmail. Chainmail grants good protection, but it&apos;s cumbersome, so it reduces your mobility and agility.	Magic appears at higher item levels, and grants higher armor bonuses than its mundane counterparts. Chainmail grants +8 AC at levels 11-15, +9 AC at levels 16-20, +10 AC at levels 21-25, and +12 AC at levels 26-30.AC Bonus: +6Check: -1Speed: -1Weight: 40 lb.Cost: 40 gp.Type: Chainmail </specific>
                <specific name="Weight" > 40 </specific>
                <specific name="Armor Bonus" > 6 </specific>
                <specific name="Check" > -1 </specific>
@@ -1225,7 +1227,7 @@ Play a Shardmind if you want ...
                <specific name="Armor Type" > Heavy </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Chain </specific>
-            Metal rings woven together into a shirt, leggings, and a hood make up a suit of chainmail. Chainmail grants good protection, but it&apos;s cumbersome, so it reduces your mobility and agility.
+            Metal rings woven together into a shirt, leggings, and a hood make up a suit of chainmail. Chainmail grants good protection, but it&apos;s cumbersome, so it reduces your mobility and agility.	Magic appears at higher item levels, and grants higher armor bonuses than its mundane counterparts. Chainmail grants +8 AC at levels 11-15, +9 AC at levels 16-20, +10 AC at levels 21-25, and +12 AC at levels 26-30.
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
@@ -1327,17 +1329,20 @@ Play a Shardmind if you want ...
             <specific name="Class" > ID_FMP_RACE_49 </specific>
          </Power>
 
-         <Power name="Preserver&apos;s Rebuke" >
-            <specific name="Flavor" > You call upon the gods to punish the enemy that dares harm those entrusted to your care. </specific>
+         <Power name="Maledictor&apos;s Doom" >
+            <specific name="Flavor" > Foes who hear your solemn vow are shaken by its weighty promise. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="Display" > Covenant of Preservation  Power </specific>
-            <specific name="Keywords" > Divine </specific>
-            <specific name="Action Type" > Immediate Reaction </specific>
-            <specific name="Attack Type" > Personal </specific>
-            <specific name="Channel Divinity" > You can use only one channel divinity power per encounter. </specific>
-            <specific name="Trigger" > An enemy within 10 squares of you hits your ally </specific>
-            <specific name="Effect" > Before the end of your next turn, you gain a bonus to your next attack roll against the triggering enemy equal to your Intelligence modifier. </specific>
-            <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1265 </specific>
+            <specific name="Display" > Invoker Feature </specific>
+            <specific name="Keywords" > Divine, Fear </specific>
+            <specific name="Action Type" > Minor Action </specific>
+            <specific name="Attack Type" > Close blast 5 </specific>
+            <specific name="Channel Divinity" > You can use only one channel divinity power per encounter </specific>
+            <specific name="Target" > Each enemy in the blast </specific>
+            <specific name="Effect" > Each target takes a -1 penalty to attack rolls and saving throws until the end of your next turn. In addition, whenever the target is hit by a fear attack before the end of your next turn, you push the target 1 square as a free action. </specific>
+            <specific name="Class" > ID_FMP_CLASS_127 </specific>
+            <specific name="Level" />
+            <specific name="Power Type" > Feature </specific>
+            <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1717 </specific>
          </Power>
 
          <Power name="Divine Bolts" >
@@ -1734,8 +1739,8 @@ Play a Shardmind if you want ...
                   <RulesElement name="Rebuke Undead" type="Power" internal-id="ID_FMP_POWER_5186" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5186" charelem="124" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Divine Covenant" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1156" charelem="103" legality="rules-legal" >
-                  <RulesElement name="Covenant of Preservation" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1265" charelem="104" legality="rules-legal" >
-                     <RulesElement name="Preserver&apos;s Rebuke" type="Power" internal-id="ID_FMP_POWER_5185" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5185" charelem="105" legality="rules-legal" />
+                  <RulesElement name="Covenant of Malediction" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1717" charelem="104" legality="rules-legal" >
+                     <RulesElement name="Maledictor&apos;s Doom" type="Power" internal-id="ID_FMP_POWER_7150" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7150" charelem="105" legality="rules-legal" />
                   </RulesElement>
                </RulesElement>
                <RulesElement name="Ritual Casting" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_683" charelem="106" legality="rules-legal" >
@@ -1827,7 +1832,7 @@ Play a Shardmind if you want ...
       Rod Implement
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp6BC7.tmp
+      C:\Windows\TEMP\tmpB8ED.tmp
    </textstring>
    <textstring name="_Portrait_Position_" >
       0 0 1 1
