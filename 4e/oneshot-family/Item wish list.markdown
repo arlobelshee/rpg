@@ -17,17 +17,26 @@ Item entries look like `name [item level]`. Each character's wish list is ordere
 1. Cloak of Distortion +1 [4]
 1. Stoneskin Robes +1 [3]
 
-## Unsung - Knight
+## Unsung - Forcefield Master
 
-1. Dwarven Plate Armor +1 [2]
-1. Quick warhammer +1 [3]
-1. Staggering Flail +1 [3]
-1. Shield of Deflection [2]
-1. Bracers of Mighty Striking [2]
-1. Cloak of Distortion +1 [4]
+1. ??? Scale Armor +1
+  * Ebon (3+enh THP when adj enemy dies, 3+2*enh necrotic resist)
+	* Gleaming (enc, react to damage, gain conceal to EONT. Aug 1 to regain the power)
+	* Mind Hunter's (+2 save vs stun, daze, dominate while have 1 pp left)
+	* of Durability (enh as item bonus to healing surge value)
+	* Invulnerable Coat of Sulphador (rare and worth it - 3 changable resists, and encounter minor action surge)
+1. Staff
+  * Lifestealer (kill -> 5+enh THP)
+	* Aversion (+2 item all def vs those subject to an effect)
+1. Crusader's Singing Stick +2 [9] (50% radiant, use as holy symbol)
+1. Shield
+  * Deflection (2 DR vs ranged & area attacks)
+	* Tusk (+2 item all def after charge to SONT)
+	* Hammer (+1 untyped all def after hit with hammer to SONT)
+1. Neck
+  * Cloak of Distortion (+5 def vs ranged from > 4 sq)
+	* Collar of recovery (gain enh additional hp when spend surge)
 1. Delver's Light [2]
-
-1. Invulnerable Coat of Sulphador Plate Armor +2 [10] -- (Encounter) minor action healing surge + 3 resists
 
 
 
@@ -35,9 +44,7 @@ Other good armors:
 
  * Screaming armor [2] - Encounter minor -2 to attacks
  * Defensive armor [3] - Daily interrupt +2 to targetted def (+5 with augment 1)
- * Ebon armor [3] - enemy dies, gain 3+enh thp
- * Meliorating heavy armor [3] - each milestone incr enh bonus by 1
- * Adamantine plating [4] - resist 1 all Also mithril, which gives no armor check or speed penalty - both require living construct
+ * Adamantine plating [4] - resist 1 all Also mithril, which gives no armor check or speed penalty - both require living construct & Plate armor
 
 
 ## ??? - Artificer
